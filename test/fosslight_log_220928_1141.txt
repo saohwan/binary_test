@@ -1,0 +1,14 @@
+[  DEBUG] (Minor) Can't connect to Binary DB. : could not translate host name "bat.lge.com" to address: Unknown host
+
+[  DEBUG] ITEM COUNT:32
+[   INFO] Output file :C:\Users\lsw35\PycharmProjects\binary_test\test\fosslight_report_220928_1141.xlsx
+[   INFO] Binaries / Scanned files: 32/2083
+Execution result: Success
+FOSSLight binary.txt: C:\Users\lsw35\PycharmProjects\binary_test\test\fosslight_binary_220928_1141.txt
+Identified in Binary DB / Binaries: 0/32
+OS: Windows 10
+Path to analyze: C:/Users/lsw35/OneDrive/πŸ≈¡ »≠∏È/flaskTest
+Python version: 3
+Running time: 220928_1141 ~ 20220928_114152
+Tool Info: fosslight_binary v4.1.11
+

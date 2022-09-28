@@ -1,0 +1,11 @@
+[   INFO] Binaries / Scanned files: /
+Error Log:
+- 'Can''t find the directory : Users\DELL7810\AppData\Local\Programs\Python\Python37'
+Execution result: Error occurred
+Identified in Binary DB / Binaries: /
+OS: Windows 10
+Path to analyze: Users\DELL7810\AppData\Local\Programs\Python\Python37
+Python version: 3
+Running time: 220928_1018 ~ 20220928_101836
+Tool Info: fosslight_binary v4.1.11
+

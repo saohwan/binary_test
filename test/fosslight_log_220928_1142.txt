@@ -1,0 +1,29 @@
+[  DEBUG] (Minor) Can't connect to Binary DB. : could not translate host name "bat.lge.com" to address: Unknown host
+
+[  DEBUG] ITEM COUNT:32
+[   INFO] Output file :C:\Users\lsw35\PycharmProjects\binary_test\test\fosslight_report_220928_1142.xlsx
+[   INFO] Binaries / Scanned files: 32/2083
+Execution result: Success
+FOSSLight binary.txt: C:\Users\lsw35\PycharmProjects\binary_test\test\fosslight_binary_220928_1142.txt
+Identified in Binary DB / Binaries: 0/32
+OS: Windows 10
+Path to analyze: C:/Users/lsw35/OneDrive/πŸ≈¡ »≠∏È/flaskTest
+Python version: 3
+Running time: 220928_1142 ~ 20220928_114232
+Tool Info: fosslight_binary v4.1.11
+
+[   INFO] Run OWASP Dependency-check to analyze .jar file
+[  DEBUG] (Minor) Can't connect to Binary DB. : could not translate host name "bat.lge.com" to address: Unknown host
+
+[  DEBUG] ITEM COUNT:601
+[   INFO] Output file :C:\Users\lsw35\PycharmProjects\binary_test\test\fosslight_report_220928_1159.xlsx
+[   INFO] Binaries / Scanned files: 601/2833
+Execution result: Success
+FOSSLight binary.txt: C:\Users\lsw35\PycharmProjects\binary_test\test\fosslight_binary_220928_1159.txt
+Identified in Binary DB / Binaries: 0/601
+OS: Windows 10
+Path to analyze: C:/Users/lsw35/souce/alice_web
+Python version: 3
+Running time: 220928_1159 ~ 20220928_120011
+Tool Info: fosslight_binary v4.1.11
+

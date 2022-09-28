@@ -1,0 +1,15 @@
+[   INFO] Run OWASP Dependency-check to analyze .jar file
+[  DEBUG] (Minor) Can't connect to Binary DB. : could not translate host name "bat.lge.com" to address: Unknown host
+
+[  DEBUG] ITEM COUNT:601
+[   INFO] Output file :C:\Users\lsw35\PycharmProjects\binary_test\test\fosslight_report_220928_1331.xlsx
+[   INFO] Binaries / Scanned files: 601/2833
+Execution result: Success
+FOSSLight binary.txt: C:\Users\lsw35\PycharmProjects\binary_test\test\fosslight_binary_220928_1331.txt
+Identified in Binary DB / Binaries: 0/601
+OS: Windows 10
+Path to analyze: C:/Users/lsw35/souce/alice_web
+Python version: 3
+Running time: 220928_1331 ~ 20220928_133239
+Tool Info: fosslight_binary v4.1.11
+
