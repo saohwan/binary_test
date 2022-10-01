@@ -3,7 +3,7 @@ import json
 import fosslight_binary.binary_analysis
 import requests
 from flask import Flask, jsonify, request
-from requests_jwt import JWTAuth
+
 
 app = Flask(__name__)
 
