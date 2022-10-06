@@ -36,11 +36,6 @@ def test_post():
 
     result_data = []
     for info in result_json:
-        # vulnerability_data = rest_api 호출
-
-        # print(vulnerability_data)
-
-        # print(info['OSS Name'])
         if len(info['OSS Name']) == 0:
             continue
         idx = info['OSS Name'].find(':')
@@ -53,18 +48,18 @@ def test_post():
             # vulnability_data = info['Vulnerability']
         }
 
-        print(data)
-
-        api_key_id = '_token'
-        api_key_secret = 'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AZm9zc2xpZ2h0Lm9yZyJ9.3jWpmXwz73emxQ6tYjf1nkecLK3Br6Jth08trgF-gxQ'
-        header = {
-            '_token': 'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AZm9zc2xpZ2h0Lm9yZyJ9.3jWpmXwz73emxQ6tYjf1nkecLK3Br6Jth08trgF-gxQ'}
-
-        vulnerability_data = requests.post("https://demo.fosslight.org/api/v1/vulnerability_max_data", headers=header,
-                                           params=data)
-
-        print(vulnerability_data)
-        data['vulnerabilityData'] = vulnerability_data
+        # print(data)
+        #
+        # api_key_id = '_token'
+        # api_key_secret = 'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AZm9zc2xpZ2h0Lm9yZyJ9.3jWpmXwz73emxQ6tYjf1nkecLK3Br6Jth08trgF-gxQ'
+        # header = {
+        #     '_token': 'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AZm9zc2xpZ2h0Lm9yZyJ9.3jWpmXwz73emxQ6tYjf1nkecLK3Br6Jth08trgF-gxQ'}
+        #
+        # vulnerability_data = requests.post("https://demo.fosslight.org/api/v1/vulnerability_max_data", headers=header,
+        #                                    params=data)
+        #
+        # print(vulnerability_data)
+        # data['vulnerabilityData'] = vulnerability_data
 
         result_data.append(data)
 
